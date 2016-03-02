@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<appender name="KIWI" class="ch.qos.logback.classic.net.SyslogAppender">
+		<syslogHost>127.0.0.1</syslogHost>
+		<port>514</port>
+		<facility>LOCAL0</facility>
+		<suffixPattern>%thread: %-5level %logger{36} - %msg%n</suffixPattern>
+	</appender>
+
+	<appender name="RSYSLOG" class="ch.qos.logback.classic.net.SyslogAppender">
+		<!-- Ubuntu Server host name -->
+		<syslogHost>127.0.0.1</syslogHost>
+		<port>514</port>
+		<facility>LOCAL1</facility>
+		<suffixPattern>%thread: %-5level %logger{36} - %msg%n</suffixPattern>
+	</appender>
+
+	<appender name="PAPERTRAIL" class="ch.qos.logback.classic.net.SyslogAppender">
+		<syslogHost>127.0.0.1</syslogHost>
+		<port>514</port>
+		<facility>LOCAL1</facility>
+		<suffixPattern>my-app: %logger %msg</suffixPattern>
+	</appender>
+
+	<logger name="com.javacodegeeks.examples.logbacksyslogexample.message.kiwi"
+		level="INFO">
+		<appender-ref ref="KIWI" />
+	</logger>
+
+	<logger
+		name="com.javacodegeeks.examples.logbacksyslogexample.message.rsyslog"
+		level="INFO">
+		<appender-ref ref="RSYSLOG" />
+	</logger>
+
+	<logger
+		name="com.javacodegeeks.examples.logbacksyslogexample.message.rsyslog"
+		level="INFO">
+		<appender-ref ref="PAPERTRAIL" />
+	</logger>
+
+</configuration>
