@@ -1,5 +1,5 @@
 
-package com.javacodegeeks.examples.logbacksyslogexample.message;
+
 
 public interface IMessageTransmitter {
 

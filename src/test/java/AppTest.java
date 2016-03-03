@@ -1,4 +1,4 @@
-package com.javacodegeeks.examples.logbacksyslogexample;
+
 
 import junit.framework.Test;
 import junit.framework.TestCase;

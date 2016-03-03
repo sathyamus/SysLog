@@ -1,9 +1,6 @@
 
-package com.javacodegeeks.examples.logbacksyslogexample;
 
-import com.javacodegeeks.examples.logbacksyslogexample.message.IMessageTransmitter;
-import com.javacodegeeks.examples.logbacksyslogexample.message.kiwi.KiwiMessageTransmitterImpl;
-import com.javacodegeeks.examples.logbacksyslogexample.message.rsyslog.RsyslogMessageTransmitterImpl;
+
 
 public class ApplicationStarter {
 

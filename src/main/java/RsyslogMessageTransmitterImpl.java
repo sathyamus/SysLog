@@ -1,10 +1,6 @@
 
-package com.javacodegeeks.examples.logbacksyslogexample.message.rsyslog;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.javacodegeeks.examples.logbacksyslogexample.message.IMessageTransmitter;
 
 public class RsyslogMessageTransmitterImpl implements IMessageTransmitter {
 

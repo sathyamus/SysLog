@@ -1,10 +1,8 @@
 
-package com.javacodegeeks.examples.logbacksyslogexample.message.kiwi;
+
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.javacodegeeks.examples.logbacksyslogexample.message.IMessageTransmitter;
 
 public class KiwiMessageTransmitterImpl implements IMessageTransmitter {
 
