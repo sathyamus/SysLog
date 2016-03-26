@@ -1,0 +1,125 @@
+
+
+http://rpms.adiscon.com/v8-stable/epel-6/i386/RPMS/
+http://rpms.adiscon.com/v8-stable/epel-7/x86_64/
+
+
+
+
+[root@agent rpm]# rsyslogd -version
+rsyslogd 5.8.10, compiled with:
+        FEATURE_REGEXP:                         Yes
+        FEATURE_LARGEFILE:                      Yes
+        GSSAPI Kerberos 5 support:              Yes
+        FEATURE_DEBUG (debug build, slow code): No
+        32bit Atomic operations supported:      Yes
+        64bit Atomic operations supported:      Yes
+        Runtime Instrumentation (slow code):    No
+
+See http://www.rsyslog.com for more information.
+[root@agent rpm]# 
+
+-----------------------------------------------------------------
+
+[root@agent rpm_i386]# rsyslogd -version
+rsyslogd 8.17.0, compiled with:
+        PLATFORM:                               i686-redhat-linux-gnu
+        PLATFORM (lsb_release -d):
+        FEATURE_REGEXP:                         Yes
+        GSSAPI Kerberos 5 support:              No
+        FEATURE_DEBUG (debug build, slow code): No
+        32bit Atomic operations supported:      Yes
+        64bit Atomic operations supported:      Yes
+        memory allocator:                       system default
+        Runtime Instrumentation (slow code):    No
+        uuid support:                           Yes
+        Number of Bits in RainerScript integers: 64
+
+See http://www.rsyslog.com for more information.
+
+-----------------------------------------------------------------
+
+
+[root@agent rpm_i386]# yum install rsyslog-8.17.0-1.el6.i686.rpm
+Loaded plugins: downloadonly, fastestmirror
+Setting up Install Process
+Examining rsyslog-8.17.0-1.el6.i686.rpm: rsyslog-8.17.0-1.el6.i686
+Marking rsyslog-8.17.0-1.el6.i686.rpm as an update to rsyslog-5.8.10-10.el6_6.i6                                                                                        86
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package rsyslog.i686 0:5.8.10-10.el6_6 will be updated
+---> Package rsyslog.i686 0:8.17.0-1.el6 will be an update
+--> Processing Dependency: libestr.so.0 for package: rsyslog-8.17.0-1.el6.i686
+--> Processing Dependency: libfastjson.so.3 for package: rsyslog-8.17.0-1.el6.i6                                                                                        86
+--> Processing Dependency: libgt for package: rsyslog-8.17.0-1.el6.i686
+--> Processing Dependency: libgtbase.so.0 for package: rsyslog-8.17.0-1.el6.i686
+--> Processing Dependency: libgthttp.so.0 for package: rsyslog-8.17.0-1.el6.i686
+--> Processing Dependency: liblogging-stdlog.so.0 for package: rsyslog-8.17.0-1.                                                                                        el6.i686
+--> Finished Dependency Resolution
+Error: Package: rsyslog-8.17.0-1.el6.i686 (/rsyslog-8.17.0-1.el6.i686)
+           Requires: libestr.so.0
+Error: Package: rsyslog-8.17.0-1.el6.i686 (/rsyslog-8.17.0-1.el6.i686)
+           Requires: libgthttp.so.0
+Error: Package: rsyslog-8.17.0-1.el6.i686 (/rsyslog-8.17.0-1.el6.i686)
+           Requires: libgt
+Error: Package: rsyslog-8.17.0-1.el6.i686 (/rsyslog-8.17.0-1.el6.i686)
+           Requires: liblogging-stdlog.so.0
+Error: Package: rsyslog-8.17.0-1.el6.i686 (/rsyslog-8.17.0-1.el6.i686)
+           Requires: libfastjson.so.3
+Error: Package: rsyslog-8.17.0-1.el6.i686 (/rsyslog-8.17.0-1.el6.i686)
+           Requires: libgtbase.so.0
+ You could try using --skip-broken to work around the problem
+ You could try running: rpm -Va --nofiles --nodigest
+
+ 
+************
+
+   i686
+
+************
+
+# yum install libestr-0.1.10-1.el6.i686.rpm
+# yum install libfastjson-0.99.2-1.el6.i686.rpm
+# yum install libgt-0.3.11-1.el6.i686.rpm
+# yum install liblogging-1.0.5-1.el6.i686.rpm
+
+# yum install rsyslog-8.17.0-1.el6.i686.rpm
+
+# yum install rsyslog-elasticsearch-8.17.0-1.el6.i686.rpm
+
+# yum install rsyslog-mmjsonparse-8.17.0-1.el6.i686.rpm
+
+
+## yum install json-c-0.11-12.el6.i686.rpm
+## yum install liblognorm1-1.1.3-1.el6.i686.rpm
+
+## yum install rsyslog-mmnormalize-8.17.0-1.el6.i686.rpm
+
+
+************
+
+   x86_64
+
+************
+
+
+# yum install libestr-0.1.10-1.el7.x86_64.rpm
+# yum install libfastjson-0.99.2-1.el7.x86_64.rpm
+# yum install libgt-0.3.11-1.el7.x86_64.rpm
+# yum install liblogging-1.0.5-1.el7.x86_64.rpm
+
+# yum install rsyslog-8.17.0-1.el7.x86_64.rpm
+
+# yum install rsyslog-elasticsearch-8.17.0-1.el7.x86_64.rpm
+
+# yum install rsyslog-mmjsonparse-8.17.0-1.el7.x86_64.rpm
+
+
+## yum install json-c-0.11-12.el6.x86_64.rpm
+## yum install liblognorm1-1.1.3-1.el7.x86_64.rpm
+
+## yum install rsyslog-mmnormalize-8.17.0-1.el7.x86_64.rpm
+
+
+
