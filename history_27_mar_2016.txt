@@ -1,0 +1,1000 @@
+   39  yum install nginx
+   40  nano /etc/yum.repos.d/nginx.repo.rpmnew 
+   41  nano /etc/yum.repos.d/nginx.repo
+   42  yum search nginx
+   43  yumdownloader nginx-release-centos.noarch
+   44  ls
+   45  nano /etc/yum.repos.d/CentOS-Base.repo 
+   46  nano /etc/yum.repos.d/CentOS-Debuginfo.repo 
+   47  nano /etc/yum.
+   48  nano /etc/yum.conf 
+   49  nano /etc/yum.conf 
+   50  nano /etc/yum.repos.d/
+   51  nano /etc/yum.repos.d/CentOS-Base.repo 
+   52  nano /etc/ssh/sshd_config 
+   53  nano /etc/motd 
+   54  nano /etc/motd 
+   55  reboot
+   56  nano /etc/motd 
+   57  reboot
+   58  puppet --version
+   59  nano /etc/yum.repos.d/
+   60  nano /etc/yum.repos.d/CentOS-Base.repo 
+   61  yum-config-manager --disable repository
+   62  yum-config-manager --disable repository...
+   63  yum repolist
+   64  yum upgrade --disablerepo=base
+   65  yum repolist
+   66  yum upgrade --disablerepo=extras
+   67  yum repolist
+   68  cd /etc/yum.repos.d/
+   69  ls
+   70  less CentOS-Base.repo 
+   71  yum upgrade --disablerepo=extras
+   72  ls
+   73  grpe enable *
+   74  grep enable *
+   75  less nginx.repo
+   76  cp nginx.repo test
+   77  sed -i 's/enabled\=1/enabled\=0/g' test 
+   78  cat test 
+   79  sed -i 's/enabled\=1/enabled\=0/g' *
+   80  rm test 
+   81  yum search nginx
+   82  yum search nginx
+   83  which nginx 
+   84  ls /vagrant/
+   85  ls
+   86  yum install nginx 
+   87  yum search nginx
+   88  cd ..
+   89  cd /home/vagrant/
+   90  ls
+   91  history
+   92  ls
+   93  yum --nopgpcheck localinstall haproxy
+   94  reboot
+   95  ls
+   96  yum --nopgpcheck localinstall nginx-release-centos-6-0.el6.ngx.noarch.rpm 
+   97  yum localinstall nginx-release-centos-6-0.el6.ngx.noarch.rpm 
+   98  yum install createrepo
+   99  mkdir nginx
+  100  ls
+  101  cp nginx-release-centos-6-0.el6.ngx.noarch.rpm nginx
+  102  nano repo
+  103  /bin/bash repo 
+  104  ls
+  105  yum repolist
+  106  yum repolist
+  107  cp nginx-release-centos-6-0.el6.ngx.noarch.rpm /mnt/local_repo
+  108  creatrepo --database /mnt/local_repo 
+  109  createrepo --database /mnt/local_repo 
+  110  cd /mnt/
+  111  ls
+  112  cd local_repo local_repo 
+  113  cd local_repo
+  114  rm local_repo 
+  115  mkdir local_repo
+  116  cd /home/vagrant/
+  117  cp nginx-release-centos-6-0.el6.ngx.noarch.rpm /mnt/local_repo/
+  118  createrepo --database /mnt/local_repo 
+  119  /bin/bash repo 
+  120  ls
+  121  rm -rf nginx
+  122  mkdir local_repo
+  123  cd nginx-release-centos-6-0.el6.ngx.noarch.rpm local_repo/
+  124  cp nginx-release-centos-6-0.el6.ngx.noarch.rpm local_repo/
+  125  cp haproxy-1.5.2-2.el6.i686.rpm local_repo/
+  126  cp mysql-server-5.1.73-3.el6_5.i686.rpm local_repo/
+  127  cd local_repo/
+  128  ls
+  129  cd ..
+  130  ls
+  131  nano repo 
+  132  /bin/bash repo
+  133  ls
+  134  cd local_repo/
+  135  ls
+  136  ls repodata/
+  137  cd ..
+  138  nano /etc/yum.repos.d/localrepo.repo
+  139  nano /etc/yum.repos.d/nginx.repo
+  140  nano /etc/yum.repos.d/localrepo.repo
+  141  ls
+  142  ls local_repo/
+  143  nano /etc/yum.repos.d/localrepo.repo
+  144  reboot
+  145  yum install nginx
+  146  yum install haproxy
+  147  yum search nginx
+  148  fg
+  149  fg
+  150  exit
+  151  exit
+  152  jobs
+  153  yum search nginx
+  154  yum search haproxy
+  155  history
+  156  grep enable *
+  157  cd /etc/yum.repos.d/
+  158  grep enable *
+  159  yum install nginx
+  160  yum search nginx
+  161  cd /home/vagrant/local_repo/
+  162  ls
+  163  ls repodata/
+  164  cd /etc/yum.repos.d/
+  165  ls
+  166  yum install nginx-release-centos.noarch
+  167  yum remove nginx
+  168  yum --help | less
+  169  yum list
+  170  yum list *n
+  171  yum repolist
+  172  ls
+  173  nano CentOS-Debuginfo.repo 
+  174  nano CentOS-Debuginfo.repo 
+  175  nano CentOS-Debuginfo.repo 
+  176  ls
+  177  yum repolist
+  178  nano CentOS-Base.repo 
+  179  yum repolist
+  180  yum repolist
+  181  exit
+  182  exit
+  183  cd /etc/yum.repos.d/
+  184  ls
+  185  nano CentOS-Base.repo 
+  186  yum repolist
+  187  bg
+  188  fg
+  189  exit
+  190  exit
+  191  cd /etc/yum.repos.d/
+  192  nano CentOS-Debuginfo.repo 
+  193  yum repolist
+  194  exit
+  195  exit
+  196  cd /etc/yum.repos.d/
+  197  ls
+  198  yum repolist
+  199  yum repolist
+  200  yum list *nginx*
+  201  yum list
+  202  yum list | less
+  203  yum --help
+  204  yum info nginx
+  205  nginx --version
+  206  nginx -v
+  207  yum install nginx
+  208  yum search nginx
+  209  yum search all nginx
+  210  yum install nginx-release-centos.noarch
+  211  ls
+  212  nano nginx.repo.rpmnew 
+  213  nano localrepo.repo 
+  214  nano nginx.repo
+  215  grep enabled *
+  216  nano nginx.repo
+  217  yum install nginx
+  218  yum search nginx
+  219  reboot
+  220  yum search nginx
+  221  yum install nginx
+  222  nano /etc/yum.repos.d/
+  223  nano /etc/yum.repos.d/nginx.repo
+  224  nano /etc/yum.repos.d/nginx.repo.rpmnew 
+  225  nano /etc/yum.repos.d/nginx.repo
+  226  nano /etc/yum.repos.d/nginx.repo
+  227  grep enabled *
+  228  grep enabled *
+  229  cd /etc/yum.repos.d/
+  230  grep enabled *
+  231  yum install nginx
+  232  nano /etc/yum.repos.d/nginx.repo
+  233  yum install nginx
+  234  yum repolist
+  235  yum search nginx
+  236  yum upgrade --disablerepo=extras
+  237  yum upgrade --disablerepo=updates
+  238  yum upgrade --disablerepo=base
+  239  yum update
+  240  yum install nginx
+  241  nano localrepo.repo 
+  242  nano nginx.repo
+  243  nano localrepo.repo 
+  244  yum repolist
+  245  grep enabled *
+  246  ls
+  247  cd /home/vagrant/
+  248  ls
+  249  cd local_repo/
+  250  ls
+  251  pwd
+  252  l
+  253  ls repodata/
+  254  ls
+  255  ls
+  256  cd ..
+  257  ls
+  258  mkdir /usr/local/repo
+  259  cp *.rpm  /usr/local/repo/
+  260  ls /usr/local/repo/
+  261  createrepo /usr/local/repo 
+  262  ls /usr/local/repo/
+  263  ls /usr/local/repo/repodata/
+  264  cd /etc/yum.repos.d/
+  265  ls
+  266  cat localrepo.repo 
+  267  nano localrepo.repo 
+  268  yum makecahce
+  269  yum makecache
+  270  ls
+  271  cat CentOS-Base.repo
+  272  ls
+  273  mkdir tmprepo
+  274  mv *.repo tmprepo/
+  275  mv tmprepo/localrepo.repo .
+  276  ls
+  277  mv *.rpmnew tmprepo/
+  278  ls
+  279  yum makecache
+  280  ls
+  281  yum search ngin
+  282  yum search nginx
+  283  yum install nginx
+  284  ls /usr/local/repo/
+  285  cd /usr/local/repo/
+  286  ls
+  287  mv nginx-release-centos-6-0.el6.ngx.noarch.rpm nginx-6-0.el6.ngx.noarch.rpm 
+  288  yum install nginx
+  289  yum search nginx
+  290  yum makecache
+  291  yum search nginx
+  292  yum install nginx
+  293  ls
+  294  mv nginx-6-0.el6.ngx.noarch.rpm  nginx-release-centos-6-0.el6.ngx.noarch.rpm  
+  295  yum makecache
+  296  yum upgrade --disablerepo=updates
+  297  yum upgrade --disablerepo=update
+  298  yum repolist
+  299  ls
+  300  cd -
+  301  ls
+  302  cp localrepo.repo  tmprepo/
+  303  nano localrepo.repo 
+  304  yum makecache
+  305  nano localrepo.repo 
+  306  yum makecache
+  307  nano localrepo.repo 
+  308  yum makecache
+  309  yum search
+  310  yum search nginx
+  311  yum install nginx 
+  312  yum search haproxy
+  313  ls
+  314  ls
+  315  cd /usr/local/
+  316  ls
+  317  cd /usr/local/
+  318  ls
+  319  ls
+  320  mkdir /home/vagrant/newrepo
+  321  yum install --downloadonly --downloaddir=/home/vagrant/newrepo/ nginx
+  322  yum install --downloadonly --downloaddir=/home/vagrant/newrepo/ haproxy
+  323  ls /home/vagrant/newrepo/
+  324  ls
+  325  yum install --downloadonly haproxy
+  326  yum install --downloadonly mysql-server
+  327  yum install --downloadonly nginx
+  328  yum install yum-downloadonly
+  329  yum repolist
+  330  cd /etc/yum.repos.d/
+  331  ls
+  332  cd tmprepo/
+  333  ls
+  334  mv *.repo /etc/yum.repos.d/
+  335  ls
+  336  cd ..
+  337  ls
+  338  yum repolist
+  339  yum install yum-downloadonly
+  340  yum install --downloadonly nginx
+  341  yum install --downloadonly haproxy
+  342  yum install --downloadonly --downloaddir=/home/vagrant/newrepo/ haproxy
+  343  yum install --downloadonly --downloaddir=/home/vagrant/newrepo/ mysql-server
+  344  cd /home/vagrant/newrepo/
+  345  ls
+  346  cd ..
+  347  ls
+  348  cd newrepo/
+  349  rm mysql-5.1.73-3.el6_5.i686.rpm 
+  350  rm perl-DBD-MySQL-4.013-3.el6.i686.rpm 
+  351  rm perl-DBI-1.609-4.el6.i686.rpm 
+  352  ls
+  353  yum install --downloadonly --downloaddir=/home/vagrant/newrepo/ nginx
+  354  yum search nginx
+  355  cd /etc/yum.repos.d/
+  356  ls
+  357  mv localrepo.repo tmprepo/
+  358  vi localrepo.repo 
+  359  nano localrepo.repo 
+  360  ls
+  361  cat nginx.repo 
+  362  nano nginx.repo 
+  363  cat nginx.repo 
+  364  yum search nginx
+  365  yum install nginx --downloadonly
+  366  rm nginx.repo 
+  367  yum search nginx
+  368  yum makecache
+  369  yum search nginx
+  370  ls
+  371  rm localrepo.repo 
+  372  yum search nginx
+  373  ls
+  374  cat > nginx.repo
+  375  yum search nginx
+  376  cat nginx.repo 
+  377  env | grep -i release
+  378  less CentOS-Base.repo 
+  379  ls
+  380  yum search nginx
+  381  cd /home/vagrant/
+  382  yum install nginx --downloadonly
+  383  yum install nginx --downloadonly --downloaddir=/home/vagrant/newrepo/
+  384  cd newrepo/
+  385  ls
+  386  history
+  387  cd /usr/local/
+  388  ls
+  389  rm -rf repo/
+  390  mkdir repo
+  391  cp /home/vagrant/newrepo/*.repo /usr/local/repo/
+  392  ls
+  393  ls repo/
+  394  cd /home/vagrant/newrepo/
+  395  cp /home/vagrant/newrepo/*.rpm /usr/local/repo/
+  396  cd /usr/local/repo/
+  397  ls
+  398  createrepo /usr/local/repo/
+  399  ls
+  400  cd /etc/yum.repos.d/
+  401  ls
+  402  mv *.repo tmprepo/
+  403  ls
+  404  nano localrepo.repo
+  405  yum repolist
+  406  yum repolist
+  407  yum install nginx
+  408  yum install nginx
+  409  yum install haproxy
+  410  which pupept
+  411  which puppet
+  412  puppet --version
+  413  yum search mysql 
+  414  yum search nmap
+  415  which nmap 
+  416  yum search ntp
+  417  ls
+  418   ls
+  419  ls tmprepo/
+  420  mv tmprepo/* .
+  421  ls
+  422  yum search ntp
+  423  yum install ntp 
+  424  yum install ntp --downloadonly
+  425  ls
+  426  mkdir local
+  427  mv localrepo.repo local
+  428  mv *repo tmprepo/
+  429  mv *.repo tmprepo/
+  430  ls
+  431  mv *.rpmnew tmprepo/
+  432  ls
+  433  cp local/localrepo.repo .
+  434  yum search ntp
+  435  ls /var/cache/yum/i386/6/updates/packages/
+  436  mv   /var/cache/yum/i386/6/updates/packages/* /usr/local/repo/
+  437  yum search ntp
+  438  createrepo /usr/local/repo/
+  439  yum search ntp
+  440  ls /usr/local/repo/
+  441  createrepo --help 
+  442  createrepo --help  | grep update
+  443  createrepo --upd/ausr/local/repo/
+  444  createrepo --update /ausr/local/repo/
+  445  createrepo --update /usr/local/repo/
+  446  yum install ntp
+  447  ls
+  448  nano localrepo.repo 
+  449  createrepo --update /usr/local/repo/
+  450  yum install ntp
+  451  reboot
+  452  yum repolist
+  453  yum install ntp
+  454  cd /etc/yum.repos.d/
+  455  ls
+  456  cat local
+  457  cat localrepo.repo 
+  458  ls /usr/local/repo/
+  459  rm -rf /usr/local/repo/repodata 
+  460  createrepo --update /usr/local/repo/
+  461  yum search ntp
+  462  yum makecache
+  463  yum search ntp
+  464  ls
+  465  cp tmprepo/*.repo .
+  466  cp tmprepo/*.repo .
+  467  ls
+  468  ls
+  469  yum install httpd --downloadonly --downloaddir=.
+  470  ls
+  471  mv *.rpm /usr/local/repo/
+  472  mv *repo tmprepo/
+  473  ls
+  474  rm -rf *.repo
+  475  ls
+  476  cp local/localrepo.repo  .
+  477  createrepo --help |
+  478  createrepo --help | less
+  479  createrepo --update /usr/local/repo/
+  480  yum search httpd
+  481  ls 
+  482  yum makecache
+  483  yum search httpd
+  484  ls
+  485  mv tmprepo/*.repo 
+  486  mv tmprepo/*.repo .
+  487  ls
+  488  ls tmprepo/
+  489  ls
+  490  which puppet 
+  491  puppet --version
+  492  ls
+  493  ls /usr/local/
+  494  ls /usr/local/repo/
+  495  yum install tree
+  496  tree
+  497  ls
+  498  rm *.repo
+  499  ls
+  500  cp local/localrepo.repo  .
+  501  ls
+  502  mv tmprepo repo,disabled
+  503  ls
+  504  rm -rf local
+  505  ls
+  506  yum makecache
+  507  yum search nginx
+  508  which nginx 
+  509  which httpd
+  510  which ntp
+  511  which ntp
+  512  which ntpd
+  513  ls /var/cache/yum/
+  514  ls /var/cache/yum/i386/
+  515  ls
+  516  du -sh  /var/cache/yum/i386/6/*
+  517  cd /var/cache/yum/
+  518  ls
+  519  cd i386/
+  520  ls
+  521  cd 6/
+  522  ls
+  523  ls updates/
+  524  ls updates/packages/
+  525  du -sh updates/
+  526  du -sh updates/*
+  527  ls
+  528  ls localrepo/
+  529  du -sh localrepo/
+  530  ls
+  531  rm -rf base extras nginx puppetlabs-* updates/
+  532  df -h
+  533  ls
+  534  cd /usr/share/
+  535  ls
+  536  du -sh man
+  537  ls 
+  538  ls mysql/
+  539  du -sh mysql/
+  540  rm /etc/udev/rules.d/70-persistent-net.rules 
+  541  cd /home/vagrant/
+  542  ls
+  543  rm -rf *.rpm
+  544  ls
+  545  rm local_repo/
+  546  rm -rf local_repo/
+  547  rm -rf newrepo/
+  548  rm -rf repo 
+  549  ls
+  550  exit
+  551  ps uax
+  552  ls
+  553  yum install nginx 
+  554  which nginx
+  555  vi /etc/yum.repos.d/localrepo.repo 
+  556  cd /etc/yum.repos.d/
+  557  ls
+  558  less repo,disabled/nginx.repo
+  559  cd ..
+  560  ls
+  561  cd yum.repos.d/
+  562  vi localrepo.repo 
+  563  df -h
+  564  ls
+  565  yum install nginx 
+  566  yum erase nginx
+  567  yum install nginx 
+  568  yum erase nginx
+  569  rm /etc/udev/rules.d/70-persistent-net.rules 
+  570  df -h
+  571  mount /dev/cdrom /mnt
+  572  df -h
+  573  cd /mnt/
+  574  ls
+  575  uname -a
+  576  cd 32Bit/
+  577  ls
+  578  less Readme.txt 
+  579  cd ..
+  580  ls
+  581  less runasroot.sh 
+  582  ls
+  583  ./autorun.sh 
+  584  ./VBoxLinuxAdditions.run 
+  585  yum install kernel-devel
+  586  yum search kernel-devel
+  587  yum search kernel
+  588  cd /etc/yum.repos.d/
+  589  ls
+  590  mkdir tmp 
+  591  mv localrepo.repo tmp/
+  592  cp repo,disabled/* .
+  593  yum search kernel-devel
+  594  ifconfig 
+  595  ping google.co.in
+  596  reboot
+  597  ping google.co.in
+  598  yum search kernel-devel
+  599  yum search kernel-dev
+  600  yum search kernel-header
+  601  cd /etc/yum.repos.d/
+  602  ls
+  603  cat CentOS-Base.repo.rpmnew 
+  604  ls
+  605  vi CentOS-Base.repo.rpmnew 
+  606  sed -i 's/enabled\=0/enabled\=1/g' CentOS-Base.repo.rpmnew 
+  607  less CentOS-Base.repo.rpmnew 
+  608  sed -i 's/enabled\=0/enabled\=1/g' *
+  609  yum search kernel-header
+  610  yum search kernel-dev
+  611  yum search kernel-dev
+  612  grep exclude * 
+  613  ls
+  614  vi /etc/yum.conf 
+  615   yum install kernel-headers --disableexcludes=all
+  616  cd /mnt/
+  617  ls
+  618  ls
+  619  cd local_repo/
+  620  ls
+  621  cd /mnt/
+  622  mount /dev/cdrom /mnt/
+  623  cd /mnt/
+  624  ls
+  625  ./VBoxLinuxAdditions.run 
+  626  less /var/log/vboxadd-install
+  627  less /var/log/vboxadd-install.log 
+  628  tail -n 5  /var/log/vboxadd-install.log 
+  629  cd /etc/yum.repos.d/
+  630  ls
+  631  less CentOS-Base.repo.rpmnew 
+  632  yum install kernel-devel
+  633  vi CentOS-Base.repo.rpmnew 
+  634  mount /dev/cdrom /mnt/
+  635  cd /mnt/
+  636  ls
+  637  yum install kernel-dev
+  638  ls
+  639  cd /etc/yum.repos.d/
+  640  ls
+  641  vi CentOS-Base.repo.rpmnew 
+  642  ls
+  643  yum search kernel-dev
+  644  yum search kernel-devel
+  645  yum search nmap
+  646  cd /etc/yum.repos.d/
+  647  ls
+  648  ls repo,disabled/
+  649  rm CentOS-Base.repo.rpmnew 
+  650  cat > CentOS-Base.repo
+  651  ls
+  652  rm nginx.repo* puppetlabs.repo 
+  653  rm nginx.repo* puppetlabs.repo 
+  654  ls
+  655  yum search nmap
+  656  yum search kernel-dev
+  657  yum install kernel-devel
+  658  mount /dev/cdrom /mnt
+  659  cd /mnt/
+  660  ls
+  661  ./VBoxLinuxAdditions.run 
+  662  yum install kernel-devel
+  663  yum install kernel-headers
+  664  ./VBoxLinuxAdditions.run 
+  665  tail -n 20 /var/log/vboxadd-install.log
+  666  rpm -qa | grep kernel | sort
+  667  cat /boot/grub/grub.conf
+  668  yum update
+  669  ./VBoxLinuxAdditions.run 
+  670  tail -n 20 /var/log/vboxadd-install.log
+  671  yum install kernel-devel
+  672  yum install kernel-headers
+  673  yum search kernel
+  674  yum install kernel 
+  675  ls
+  676  vi /etc/yum.repos.d/CentOS-Base.repo 
+  677  yum install -y gcc kernel-devel
+  678  ./VBoxLinuxAdditions.run 
+  679  tail -n 20 /var/log/vboxadd-install.log
+  680  yum install kernel-devel
+  681  ls /usr/src/kernels/
+  682  uname -a
+  683  reboot
+  684  uname -a
+  685  mount /dev/cdrom /mnt
+  686  cd /mnt/
+  687  ls
+  688  ./VBoxLinuxAdditions.run 
+  689  rm /etc/udev/rules.d/70-persistent-net.rules 
+  690  cd /etc/yum.repos.d/
+  691  ls
+  692  mkdir working
+  693  mv CentOS-Base.repo working/
+  694  cat localrepo.repo 
+  695  yum install nginx
+  696  yum erase nginx
+  697  yum install nginx
+  698  yum erase nginx
+  699  yum erase mysql
+  700  yum erase haproxy
+  701  ls
+  702  yum install nginx 
+  703  yum erase nginx
+  704  ls
+  705  yum erase nginx
+  706  yum install nginx 
+  707  yum erase nginx
+  708  ls
+  709  ls
+  710  rm /etc/udev/rules.d/70-persistent-net.rules 
+  711  ls
+  712  cp -r /etc/yum.repos.d/repo,disabled/* /etc/yum.repos.d/
+  713  sed -i 's/enabled\=0/enabled\=1/g' /etc/yum.repos.d/puppetlabs.repo
+  714  yum install puppet-server
+  715  ls
+  716  ls
+  717  cd /etc/yum.repos.d/
+  718  ls
+  719  ls ../
+  720  ls
+  721  rm -rf CentOS-Base.repo.rpmnew nginx.repo* puppetlabs.repo 
+  722  ls
+  723  ls repo,disabled/
+  724  ls
+  725  cat localrepo.repo 
+  726  ls
+  727  rm /etc/udev/rules.d/70-persistent-net.rules 
+  728  ls
+  729  ifconfig 
+  730  ls /vagrant
+  731  ls /vagrant
+  732  vi /etc/rsyslog.conf
+  733  cd /vagrant
+  734  cd rm
+  735  cd rpm
+  736  ls
+  737  rsyslogd -version
+  738  sudo yum install rsyslog-8.17.0-1.el7.x86_64.rpm
+  739  rpm -q --changelog -p rsyslog-8.17.0-1.el7.x86_64.rpm | less
+  740  echo "%_query_all_fmt %%{name}-%%{version}-%%{release}.%%{arch}" >> ~/.rpmmacros
+  741  ls
+  742  cat ~
+  743  cd ~
+  744  ls
+  745  cd /
+  746  ls
+  747  rpm -qa --qf '%{NAME} %{VENDOR}\n' | grep -v CentOS
+  748  rpm -qd rsyslog-8.17.0-1.el7.x86_64.rpm
+  749  sudo yum install rsyslog-8.17.0-1.el7.x86_64.rpm
+  750  cd /vagrant/rpm
+  751  ls
+  752  ls -la
+  753  sudo yum install rsyslog-8.17.0-1.el7.x86_64.rpm
+  754  uname -a
+  755  uname -r
+  756  cat /proc/version
+  757  cat /etc/issue
+  758  cat /etc/redhar-release
+  759  lsb_release -a
+  760  clear
+  761  uname -a
+  762  yum search rsyslog
+  763  yum search all rsyslog
+  764  yum info rsyslog
+  765  ls
+  766  cd..
+  767  cd ..
+  768  ls
+  769  cd rpm_i386/
+  770  ls
+  771  yum install rsyslog-8.17.0-1.el6.i686.rpm
+  772  yum install rsyslog-8.17.0-1.el6.i686.rpm
+  773  yum install rsyslog-8.17.0-1.el6.i686.rpm
+  774  yum install libestr-0.1.10-1.el6.i686.rpm 
+  775  yum install rsyslog-8.17.0-1.el6.i686.rpm
+  776  yum install rsyslog-8.17.0-1.el6.i686.rpm --skip-boken
+  777  yum install --skip-boken rsyslog-8.17.0-1.el6.i686.rp
+  778  yum install libfastjson-0.99.2-1.el6.i686.rpm 
+  779  yum install libgt-0.3.11-1.el6.i686.rpm 
+  780  yum install liblogging-1.0.5-1.el6.i686.rpm 
+  781  yum search libgtbase
+  782  which libgtbase
+  783  yum install rsyslog-8.17.0-1.el6.i686.rpm
+  784  rsyslogd -version
+  785  clear
+  786  ls -a
+  787  ls
+  788  clear
+  789  ls -la
+  790  yum install rsyslog-elasticsearch-8.17.0-1.el6.i686.rpm
+  791  yum install rsyslog-mmjsonparse-8.17.0-1.el6.i686.rpm
+  792  yum install rsyslog-mmnormalize-8.17.0-1.el6.i686.rpm
+  793  yum install liblognorm1-1.1.3-1.el6.i686.rpm 
+  794  yum install json-c-0.11-12.el6.i686.rpm
+  795  yum install rsyslog-mmnormalize-8.17.0-1.el6.i686.rpm
+  796  yum install liblognorm1-1.1.3-1.el6.i686.rpm 
+  797  yum install rsyslog-mmnormalize-8.17.0-1.el6.i686.rpm
+  798  ls
+  799  cd ..
+  800  ls
+  801  cp rsyslog-source-21-Mar-2016.conf /etc/rsyslog.conf
+  802  service rsyslog status
+  803  service rsyslog restart
+  804  service rsyslog status
+  805  rsyslogd -N1
+  806  exit
+  807  rsyslogd -version
+  808  tail -100 /var/log/messages
+  809  tail -100 /var/log/messages
+  810  logger "Welcome back Sathya - sending from source"
+  811  tail -100 /var/log/messages
+  812  tail -100 /var/log/messages
+  813  tail -100 /var/log/messages
+  814  tail -100 /var/log/messages
+  815  tail -100 /var/log/messages
+  816  tail -100 /var/log/messages
+  817  tail -100 /var/log/messages
+  818  tail -100 /var/log/messages
+  819  logger "Welcome back Sathya - sending from source"
+  820  rsyslogd -N1
+  821  tail -100 /var/log/messages
+  822  vi /etc/rsyslog.conf
+  823  tail -100 /var/log/message
+  824  tail -100 /var/log/messages
+  825  tail -100 /var/log/messages
+  826  ping 192.168.33.22
+  827  ping 192.168.33.22ping kibana
+  828  ping kibana
+  829  vi /etc/hosts
+  830  ping kibana
+  831  logger "Welcome back Sathya - sending from source 1"
+  832  logger "Welcome back Sathya - sending from source 2"
+  833  uname -a
+  834  exit
+  835  logger "Welcome back Sathya - sending from source 1"
+  836  tail -100 /var/log/messages
+  837  tail -100 /var/log/messages
+  838  tail -100 /var/log/messages
+  839  logger '@cee: {"logsene-app-token":"LOGSENE_APP_TOKEN_GOES_HERE", "hello":"world"}'
+  840  tail -100 /var/log/messages
+  841  clear
+  842  tail -100 /var/log/messages
+  843  clear
+  844  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  845  tail -100 /var/log/messages
+  846  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  847  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  848  tail -100 /var/log/messages
+  849  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  850  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  851  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  852  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  853  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  854  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  855  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  856  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  857  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  858  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  859  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  860  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  861  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  862  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  863  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  864  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  865  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  866  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  867  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  868  tail -100 /var/log/messages
+  869  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"HOM","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  870  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"HOM","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  871  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"HOM","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Technical","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed TEch","environment":"PRE","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  872  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Informational","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed Infor","environment":"HOM","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  873  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed func","environment":"UAT","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  874  tail -100 /var/log/messages
+  875  clear
+  876  tail -100 /var/log/messages
+  877  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Informational","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed Infor","environment":"HOM","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  878  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed func","environment":"UAT","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  879  tail -100 /var/log/messages
+  880  tail -100 /var/log/messages
+  881  clear
+  882  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Informational","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed Infor","environment":"HOM","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  883  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed func","environment":"UAT","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  884  tail -100 /var/log/messages
+  885  tail -100 /var/log/messages
+  886  tail -100 /var/log/messages
+  887  tail -100 /var/log/messages
+  888  tail -100 /var/log/messages
+  889  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed func","environment":"UAT","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  890  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Informational","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed Infor","environment":"HOM","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  891  tail -100 /var/log/messages
+  892  tail -100 /var/log/messages
+  893  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed func","environment":"UAT","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  894  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed func","environment":"UAT","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  895  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Informational","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed Infor","environment":"HOM","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  896  tail -100 /var/log/messages
+  897  tail -100 /var/log/messages
+  898  tail -100 /var/log/messages
+  899  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Informational","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed Infor","environment":"HOM","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  900  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed func","environment":"UAT","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  901  tail -100 /var/log/messages
+  902  tail -100 /var/log/messages
+  903  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Informational","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed Infor","environment":"HOM","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  904  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed func","environment":"UAT","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  905  tail -100 /var/log/messages
+  906  tail -100 /var/log/messages
+  907  tail -100 /var/log/messages
+  908  tail -100 /var/log/messages
+  909  tail -100 /var/log/messages
+  910  tail -100 /var/log/messages
+  911  tail -100 /var/log/messages
+  912  logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Informational","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed Infor","environment":"HOM","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+  913  tail -100 /var/log/messages
+  914  tail -100 /var/log/messages
+  915  tail -100 /var/log/messages
+  916  tail -100 /var/log/messages
+  917  tail -100 /var/log/messages
+  918  tail -100 /var/log/messages
+  919  exit
+  920  hostname
+  921  clear
+  922  logger "[CBS] Welcome back Sathya - sending from source 2"
+  923  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  924  service rsyslog status
+  925  service rsyslog restart
+  926  service rsyslog status
+  927  rsyslogd -N1
+  928  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  929  service rsyslog restart
+  930  rsyslogd -N1
+  931  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  932  service rsyslog restart
+  933  rsyslogd -N1
+  934  rsyslogd -N1
+  935  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  936  service rsyslog restart
+  937  rsyslogd -N1
+  938  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  939  service rsyslog restart
+  940  rsyslogd -N1
+  941  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  942  service rsyslog restart
+  943  rsyslogd -N1
+  944  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  945  service rsyslog restart
+  946  rsyslogd -N1
+  947  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  948  service rsyslog restart
+  949  rsyslogd -N1
+  950  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  951  service rsyslog restart
+  952  rsyslogd -N1
+  953  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  954  service rsyslog restart
+  955  rsyslogd -N1
+  956  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  957  service rsyslog restart
+  958  rsyslogd -N1
+  959  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  960  service rsyslog restart
+  961  rsyslogd -N1
+  962  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  963  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  964  service rsyslog restart
+  965  rsyslogd -N1
+  966  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  967  service rsyslog restart
+  968  rsyslogd -N1
+  969  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  970  service rsyslog restart
+  971  rsyslogd -N1
+  972  cp /vagrant/rsyslog-source-logs-to-file-byApp.conf /etc/rsyslog.conf
+  973  vi /etc/rsyslog.conf
+  974  rsyslogd -N1
+  975  clear
+  976  rsyslogd -N1
+  977  service rsyslog status
+  978  service rsyslog stop
+  979  service rsyslog restart
+  980  service rsyslog restart
+  981  ps -u root
+  982  rsyslogd
+  983  rsyslogd -N1
+  984  service rsyslog status
+  985  service rsyslog --help
+  986  service rsyslog --full-restart
+  987  service rsyslog --full-restart
+  988  service rsyslog status
+  989  exit
+  990  service rsyslog status
+  991  cat /var/run/rsyslogd.pid
+  992  kill -9 3294
+  993  rmt /var/run/rsyslogd.pid
+  994  rm /var/run/rsyslogd.pid
+  995  service rsyslog status
+  996  service rsyslog restart
+  997  service rsyslog status
+  998  cat /var/run/rsyslogd.pid
+  999  service rsyslog --full-restart
+ 1000  exit
+ 1001  clear
+ 1002  cat /var/run/rsyslogd.pid
+ 1003  service rsyslog status
+ 1004  service rsyslog --full-restart
+ 1005  less -100 /var/log/messages
+ 1006  tail -100 /var/log/messages
+ 1007  cat /var/lock/subsys/syslog
+ 1008  cat /var/log/secure
+ 1009  killall -9 syslogd
+ 1010  killall -9 rsyslogd
+ 1011  killall -9 syslog
+ 1012  cd /etc/init.d/
+ 1013  syslog restart
+ 1014  ls
+ 1015  rsyslog restart
+ 1016  ls
+ 1017  rsyslog restart
+ 1018  ./rsyslog restart
+ 1019  ./rsyslog --h
+ 1020  rsyslogd -dn
+ 1021  clear
+ 1022  rsyslogd -dn
+ 1023  clear
+ 1024  rsyslogd -dn
+ 1025  cat /var/run/rsyslogd.pid
+ 1026  less -100 /var/log/messages
+ 1027  tail -100 /var/log/messages
+ 1028  service rsyslog status
+ 1029  cat /var/run/rsyslogd.pid
+ 1030  kill -9 2559
+ 1031  rm /var/run/rsyslogd.pid
+ 1032  rm /var/run/rsyslogd.pid
+ 1033  kill -9 2559
+ 1034  service rsyslog status
+ 1035  rm /var/run/rsyslogd.pid
+ 1036  service rsyslog restart
+ 1037  history
+ 1038  history > /vagrant/history_27_mar_2016.txt
