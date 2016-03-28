@@ -1,0 +1,57 @@
+logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\posham123","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Technical","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed TEch","environment":"PRE","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\deeksha123","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Informational","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed Infor","environment":"HOM","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\laxmi123","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","@timestamp":"2016-03-22T12:47:18.479069+05:30","sendToWorker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed func","environment":"UAT","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","ProviderName":"SocGen-Financing-FunctionalEvent","Level":4,"LevelName":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\sposham111413","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest","applicationCode":"1254"}'
+logger '@cee: {"name":"FunctionalMonitoringEvent1","type":"Functional1","@timestamp":"2016-03-27T12:47:18.479069+05:30","sendToWorker":false,"host":"source1","process":8680,"key":"6b8d8406-49ec-42d6-a226","thread":9,"task":"123","component":"LoggerSink123","workflow":"","message":"Deal Closed 12121212","environment":"DEV","EventId":1,"EventDate":"2016-03-27T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283","ProviderName":"SocGen-Financing-FunctionalEvent12112","Level":4,"LevelName":"Informational121","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessProcess":"Loans Origination - EUR","activity":"Closing1212","feature":"Deal Signoff Screen12121","hostName":"source","sourceSystemName":"Financing Platform-Origination-Loans","userId":"ASI\\posham123","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationName":"FinPlatform-RDTest12","applicationCode":"1254"}'
+
+
+logger '@cee: {"test":"test1","type1":"Functional11"}'
+logger '@cee: {"test":"test2","type2":"Functional12"}'
+logger '@cee: {"test":"test3","type3":"Functional13"}'
+logger '@cee: {"test":"test4","type4":"Functional14"}'
+logger '@cee: {"test":"test5","type5":"Functional15"}'
+
+
+logger '@cee: {"amount": 50}'
+
+logger '@cee: {"applicationName": "FinPlatform-RDTest","applicationCode": "1254"}'
+
+logger '@cee: {"applicationname": "FinPlatform-RDTest","applicationcode": "1254"}, "businessprocess":""'
+
+logger '@cee: {"name":"FunctionalMonitoringEvent","type":"Functional","sendtoworker":false,"host":"source","process":8680,"key":"6b8d8406-49ec-42d6-a226-12b4de74c9fa","thread":9,"task":"","component":"LoggerSink","workflow":"","message":"Deal Closed","environment":"DEV","EventId":1,"EventDate":"2016-03-22T07:17:16.703069Z","Keywords":0,"ProviderId":"4f4e9124-d718-5283-33e9-59dc0ca5b016","providername":"SocGen-Financing-FunctionalEvent","Level":4,"levelname":"Informational","Opcode":0,"Task":65533,"Version":1,"ProcessId":8680,"ThreadId":9480,"eventCategory":"Functional","domain":"Origination-Loans","businessprocess":"Loans Origination - EUR","activity":"Closing","feature":"Deal Signoff Screen","hostName":"source","sourcesystemname":"Financing Platform-Origination-Loans","userId":"ASI\\posham123","additionalInfo_DealId":"D12345","additionalInfo_clientId":"C12345","applicationname":"FinPlatform-RDTest","applicationcode":"1254"}'
+
+
+March 29th 2016, 00:17:24.688
+
+{
+  "_index": "logstash-2016.03.28",
+  "_type": "events",
+  "_id": "AVO-jUzLeExmY6iGB8MI",
+  "_score": null,
+  "_source": {
+    "@timestamp": "2016-03-28T18:47:24.688369+00:00",
+    "@version": "1",
+    "message": " @cee: {\"applicationname\": \"FinPlatform-RDTest\",\"applicationcode\": \"1254\"}",
+    "host": "agent",
+    "host_ip": "127.0.0.1",
+    "appTrigram": "FinPlatform-RDTest",
+    "applicationCode": "1254",
+    "logsource": "agent",
+    "severity_label": "notice",
+    "severity": "5",
+    "facility_label": "user",
+    "facility": "1",
+    "program": "vagrant",
+    "pid": "-",
+    "rawmsg": "<13>Mar 28 18:47:24 vagrant: @cee: {\"applicationname\": \"FinPlatform-RDTest\",\"applicationcode\": \"1254\"}",
+    "syslogtag": "vagrant:"
+  },
+  "fields": {
+    "@timestamp": [
+      1459190844688
+    ]
+  },
+  "sort": [
+    1459190844688
+  ]
+}
