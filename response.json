@@ -1,0 +1,40 @@
+{
+  "_index": "logstash-2016.03.28",
+  "_type": "events",
+  "_id": "AVO-paBIeExmY6iGB8Mj",
+  "_score": null,
+  "_source": {
+    "@timestamp": "2016-03-28T19:13:59.030142+00:00",
+    "@version": "1",
+    "message": "Deal Closed",
+    "host": "agent",
+    "host_ip": "127.0.0.1",
+    "name": "FunctionalMonitoringEvent",
+    "type": "Functional",
+    "sendToWorker": "false",
+    "applicationName": "FinPlatform-RDTest",
+    "applicationCode": "1254",
+    "environment": "DEV",
+    "component": "LoggerSink",
+    "levelname": "Informational",
+    "businessProcess": "Loans Origination - EUR",
+    "sourceSystemName": "Financing Platform-Origination-Loans",
+    "logsource": "agent",
+    "severity_label": "notice",
+    "severity": "5",
+    "facility_label": "user",
+    "facility": "1",
+    "program": "vagrant",
+    "pid": "-",
+    "rawmsg": "<13>Mar 28 19:13:59 vagrant: @cee: {\"name\":\"FunctionalMonitoringEvent\",\"type\":\"Functional\",\"sendtoworker\":false,\"host\":\"source\",\"process\":8680,\"key\":\"6b8d8406-49ec-42d6-a226-12b4de74c9fa\",\"thread\":9,\"task\":\"\",\"component\":\"LoggerSink\",\"workflow\":\"\",\"message\":\"Deal Closed\",\"environment\":\"DEV\",\"EventId\":1,\"EventDate\":\"2016-03-22T07:17:16.703069Z\",\"Keywords\":0,\"ProviderId\":\"4f4e9124-d718-5283-33e9-59dc0ca5b016\",\"providername\":\"SocGen-Financing-FunctionalEvent\",\"Level\":4,\"levelname\":\"Informational\",\"Opcode\":0,\"Task\":65533,\"Version\":1,\"ProcessId\":8680,\"ThreadId\":9480,\"eventCategory\":\"Functional\",\"domain\":\"Origination-Loans\",\"businessprocess\":\"Loans Origination - EUR\",\"activity\":\"Closing\",\"feature\":\"Deal Signoff Screen\",\"hostName\":\"source\",\"sourcesystemname\":\"Financing Platform-Origination-Loans\",\"userId\":\"ASI\\posham123\",\"additionalInfo_DealId\":\"D12345\",\"additionalInfo_clientId\":\"C12345\",\"applicationname\":\"FinPlatform-RDTest\",\"applicationcode\":\"1254\"}",
+    "syslogtag": "vagrant:"
+  },
+  "fields": {
+    "@timestamp": [
+      1459192439030
+    ]
+  },
+  "sort": [
+    1459192439030
+  ]
+}
